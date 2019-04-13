@@ -46,6 +46,11 @@ class testing{
     return $this->int."<br>";
   }
 
+  // magic method
+  public function __toString(){
+    return 'This is magic method';
+  }
+
 }
 
 ?>

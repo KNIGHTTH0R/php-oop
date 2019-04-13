@@ -26,5 +26,8 @@ echo josh::$test;
 $chan = new testing;
 $chan->set_chaining(30)->set_bro('this is trial chaining method');
 
-echo $chan->int.' - '.$chan->text;
+echo $chan->int.' - '.$chan->text.'<br>';
+
+//call class as string (magic method)
+echo $chan;
 ?>
