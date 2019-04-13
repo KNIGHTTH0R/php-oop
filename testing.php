@@ -3,6 +3,11 @@
 // class
 class testing{
 
+  //different between public, protected, private
+  // public : can call by averyone
+  // protected : only can call by inheritance
+  // private : only can call in this class
+
   // property
   // public $text = 'Welcome to the OOP';
   // public $int = 123;
