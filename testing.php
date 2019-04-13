@@ -34,7 +34,7 @@ class testing{
   }
 
   public function get_bro(){
-    return $this->text;
+    return $this->text."<br>";
   }
 
 }

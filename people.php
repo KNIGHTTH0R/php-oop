@@ -6,12 +6,12 @@ require_once 'testing.php';
 class people extends testing{
 
   public function hai(){
-    echo "hai bro";
+    echo "hai bro<br>";
   }
 
   //overriding
   public function get_bro(){
-    return $this->text." overriding bro";
+    return $this->text." => overriding bro<br>";
   }
 
   // self and parent

@@ -2,6 +2,7 @@
 
 require_once 'testing.php';
 require_once 'people.php';
+require_once 'josh.php';
 
 $hello = new testing;
 // echo $hello->text." ".$hello->int;
@@ -15,4 +16,9 @@ $human->set_bro('This is come from inheritance');
 echo $human->get_bro();
 $human->hai();
 
+// call static function
+josh::hands();
+
+//call static variable
+echo josh::$test;
 ?>
