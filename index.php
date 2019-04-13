@@ -1,8 +1,13 @@
 <?php
 
-require_once 'testing.php';
-require_once 'people.php';
-require_once 'josh.php';
+// require_once 'testing.php';
+// require_once 'people.php';
+// require_once 'josh.php';
+
+//auto load class
+spl_autoload_register(function ($class_name){
+  include $class_name . '.php';
+});
 
 $hello = new testing;
 // echo $hello->text." ".$hello->int;
