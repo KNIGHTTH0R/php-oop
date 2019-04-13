@@ -10,13 +10,13 @@ class testing{
   public $int;
 
   //metode
-  // public function home(){
-  //   echo $this->text;
-  // }
-  //
-  // public function count(){
-  //   return $this->int;
-  // }
+  public function home(){
+    echo $this->text;
+  }
+
+  public function count(){
+    return $this->int;
+  }
 
   //constructor
   public function __construct(){
@@ -32,6 +32,14 @@ class testing{
     return $this->text;
   }
 
+}
+
+class people extends testing{
+
+  public function hai(){
+    echo "hai bro";
+  }
+  
 }
 
 ?>
