@@ -14,5 +14,12 @@ class people extends testing{
     return $this->text." overriding bro";
   }
 
+  // self and parent
+  public function selpar(){
+    return $this->get_bro(); //get function on this class
+    // return self::get_bro(); //get function on this class
+    // return parent::get_bro(); //get function on parent class
+  }
+
 }
 ?>
