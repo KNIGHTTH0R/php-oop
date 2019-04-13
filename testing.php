@@ -34,12 +34,4 @@ class testing{
 
 }
 
-class people extends testing{
-
-  public function hai(){
-    echo "hai bro";
-  }
-  
-}
-
 ?>

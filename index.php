@@ -1,6 +1,7 @@
 <?php
 
 require_once 'testing.php';
+require_once 'people.php';
 
 $hello = new testing;
 // echo $hello->text." ".$hello->int;
