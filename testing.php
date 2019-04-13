@@ -37,6 +37,15 @@ class testing{
     return $this->text."<br>";
   }
 
+  public function set_chaining($param){
+    $this->int = $param;
+    return $this;
+  }
+
+  public function get_chaining($param){
+    return $this->int."<br>";
+  }
+
 }
 
 ?>

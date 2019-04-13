@@ -21,4 +21,10 @@ josh::hands();
 
 //call static variable
 echo josh::$test;
+
+//call method in one line with chaining
+$chan = new testing;
+$chan->set_chaining(30)->set_bro('this is trial chaining method');
+
+echo $chan->int.' - '.$chan->text;
 ?>
